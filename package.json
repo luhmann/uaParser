@@ -1,0 +1,28 @@
+{
+  "name": "parseUA",
+  "version": "0.1.0",
+  "description": "A simple command line tool that parses a user agent string",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/luhmann/uaParser.git"
+  },
+  "keywords": [
+    "userAgent",
+    "cli",
+    "parse"
+  ],
+  "author": "Jan Florian Dietrich <jfd@daenen4.de> (http://www.daenen4.de/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/luhmann/uaParser/issues"
+  },
+  "homepage": "https://github.com/luhmann/uaParser",
+  "devDependencies": {
+    "sprintf-js": "^1.0.3",
+    "user-agent-parser": "^0.6.0"
+  }
+}
